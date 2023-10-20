@@ -53,6 +53,7 @@ img{
     position: absolute;
     top: 0;
     max-width: 170px;
+    animation: anim 4s infinite alternate;
 }
 .position1{
     top: 10px;
@@ -67,3 +68,11 @@ img{
     top: 80%;
 }
 .position4{}
+@keyframes anim {
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
