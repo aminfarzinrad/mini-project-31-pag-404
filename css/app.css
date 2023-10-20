@@ -27,6 +27,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    flex-direction: column;
 }
 .box_image_error{
     background-color: rgba(130, 127, 127, 0.2);
@@ -34,3 +35,14 @@ body{
     border-radius: 100%;    
 }
 .img_error{}
+.content_box{
+    background-color: #fff;
+    padding: 17px;
+    width: 23%;
+    color: #7c79c9;
+    margin-top: 3.5rem;
+    border-radius: 28px;
+    text-align: center;
+    cursor: pointer;
+}
+.text_content{}
